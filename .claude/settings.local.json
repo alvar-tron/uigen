@@ -4,7 +4,12 @@
       "Bash(git *)",
       "Bash(curl *)",
       "Bash(npx vitest *)",
-      "Bash(npm audit *)"
+      "Bash(npm audit *)",
+      "mcp__playwright",
+      "Bash(sed -E 's/\\(ANTHROPIC_API_KEY=\\).+/\\\\1<redacted, length=\\\\$\\(echo -n \"$1\" | wc -c\\)>/')",
+      "Bash(node -e ' *)",
+      "Bash(rm -f before-prompt-update.png after-prompt-update.png after-prompt-update2.png)",
+      "Bash(rm -rf .playwright-mcp)"
     ]
   }
 }
