@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git *)",
       "Bash(curl *)",
-      "Bash(npx vitest *)"
+      "Bash(npx vitest *)",
+      "Bash(npm audit *)"
     ]
   }
 }
